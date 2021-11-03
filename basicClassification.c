@@ -11,7 +11,7 @@ int isPrime(int x) {
     if (x == 0){
         return 0;
     }
-    while (i < sqrtX){
+    while (i <= sqrtX){
         if (x%i == 0){
             ans = 0;
             break;
